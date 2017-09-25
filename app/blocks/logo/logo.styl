@@ -1,8 +1,22 @@
 .logo
 	display inline-block
 	vertical-align top
-	retinaSprite($logo_group)
+	width 514px
+	height auto
+	// background url('../images/general/logo.png') 0 0 / cover no-repeat
 	hide-text()
+	&__image
+		max-width 100%
+		display block
+	+r(514px)
+		width 100%
+		// height 90px
 
 .logo_second
-	retinaSprite($logo_white_group)
+	width 438px
+	height auto
+	background url('../images/general/logo-white.png') 0 0 / cover no-repeat
+	// retinaSprite($logo_white_group)
+	+r(514px)
+		width 100%
+
