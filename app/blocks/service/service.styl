@@ -1,0 +1,45 @@
+.service
+	position relative
+	padding-top 60px
+	padding-right 160px
+	display block
+	+r(1440px)
+		padding-top 0
+		padding-right 0
+		padding-bottom 50px
+	+r(1024px)
+		padding-top 30px
+	&__title
+		margin-bottom 30px
+		font-family $hB
+		font-size 48px
+		line-height 1.2
+		text-transform uppercase
+		+r(1440px)
+			margin-top 0
+			font-size 40px
+	&__text
+		margin-bottom 86px
+		@extends .wysiwyg
+		font-size 24px
+		line-height 1.2
+		+r(1440px)
+			font-size 20px
+		p
+			margin-bottom 0
+		+r(1024px)
+			margin-bottom 40px
+	&__note
+		padding-right 40px
+		color #00aaa0
+		font-size 16px
+		+r(1440px)
+			padding-right 0
+	&__icon
+		position absolute
+		top 36px
+		right -66px
+		width 140px
+		height 523px
+		+r(1440px)
+			display none

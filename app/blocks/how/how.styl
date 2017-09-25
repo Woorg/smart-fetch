@@ -1,0 +1,126 @@
+.how
+	display block
+	padding-top 64px
+	padding-bottom 70px
+	overflow hidden
+	&__title
+		margin-top 0
+		margin-bottom 100px
+		color #00aaa0
+		font-family $hB
+		font-size 36px
+		text-align center
+		text-transform uppercase
+		+r(1440px)
+			margin-bottom 50px
+	&__list
+		margin auto
+		width 1390px
+		font-size 0
+		+r(1440px)
+			width auto
+	&__item
+		position relative
+		padding-top 118px
+		width 33.3%
+		min-height 210px
+		display inline-block
+		vertical-align top
+		+r(1440px)
+			margin-bottom 50px
+			width 100%
+			// text-align center
+	&__icon
+		position absolute
+		top 0
+		left 70px
+		margin auto
+		+r(1440px)
+			left 50%
+			right auto
+			margin auto
+			transform translateX(-50%)
+	&__arrow
+		margin-right 30px
+		margin-left 30px
+		width 46px
+		height 88px
+	&__item-title,
+	&__text,
+	&__arrow
+		display inline-block
+		vertical-align middle
+		line-height 1
+		+r(1440px)
+			display block
+	&__arrow
+		+r(1440px)
+			display none
+	&__item-title
+		position relative
+		margin 0
+		font-family $hR
+		font-size 36px
+		color #00aaa0
+		+r(1440px)
+			margin-bottom 30px
+	&__text
+		margin 0
+		width 48%
+		font-size 16px
+		color #404040
+		text-align left
+		+r(1440px)
+			width auto
+			text-align center
+		p
+			line-height 1.2
+	&__w
+		text-align center
+
+.how__item_first
+	+r(1440px)
+		width 100%
+	.how__icon
+		width 93px
+		height 93px
+.how__item_second
+	width 46%
+	+r(1440px)
+		width 100%
+
+	.how__text
+		width 44%
+		+r(1440px)
+			width auto
+	.how__icon
+		right auto
+		width 112px
+		height 93px
+.how__item_third
+	width 14%
+	text-align right
+	+r(1440px)
+		margin-bottom 0
+		width 100%
+		text-align center
+
+	.how__item-title
+		width 50%
+	.how__icon
+		right -50px
+		width 117px
+		height 100px
+		+r(1440px)
+			right auto
+			display inline-block
+			vertical-align middle
+	.how__arrow
+		margin-right 0
+		margin-left 0
+		width 50%
+	.how__w
+		+r(1440px)
+			display inline-block
+			vertical-align middle
+

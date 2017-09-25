@@ -1,0 +1,27 @@
+mixin how()
+	.how
+		.container
+			.row
+				.col-lg-12.col-sm-12.col-xs-12
+					h2.how__title Как это работает?
+			.row
+				ul.how__list
+						li.how__item.how__item_first
+							+icon('questions', true).how__icon
+							.how__w
+								h3.how__item-title Запрос
+								+icon('arrow-small' , true).how__arrow
+								.how__text
+									p Пользователь формирует задание в системе, ручным вводом, через файл или с использованием API
+						li.how__item.how__item_second
+							+icon('clockwise', true).how__icon
+							.how__w
+								h3.how__item-title Обработка
+								+icon('arrow-small' , true).how__arrow
+								.how__text
+									p Система обрабатывает в порядке очереди задание, и формирует результат, он может быть получен из интерфейса, через API или путем отправки на почту
+						li.how__item.how__item_third
+							+icon('cloud-computing', true).how__icon
+							.how__w
+								+icon('arrow-small' , true).how__arrow
+								h3.how__item-title Результат

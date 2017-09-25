@@ -1,0 +1,41 @@
+.form
+	padding-left 50px
+	padding-right 70px
+	display block
+	text-align center
+	+r(1440px)
+		padding-left 0
+		padding-right 0
+	&__title
+		margin-top 0
+		margin-bottom 22px
+		font-size 60px
+		font-family $hB
+		line-height 1.3
+		text-transform uppercase
+		+r(1440px)
+			font-size 43px
+	&__field
+		margin-bottom 50px
+	&__input
+		border none
+		padding-top 53px
+		padding-bottom 46px
+		background #Fff
+		text-align center
+		font-family $hR
+		font-size 24px
+		color #a6a6a6
+		border-radius 0
+		+placeholder()
+			color #a6a6a6
+		+r(1440px)
+			font-size 20px
+	&__submit
+		@extends .button
+		padding-top 30px
+		padding-bottom 66px
+		font-size 36px
+		text-transform uppercase
+		+r(1440px)
+			font-size 30px
